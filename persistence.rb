@@ -5,8 +5,7 @@ def persistence(num)
   count_steps = 0
   while num > 9
     num = num.to_s.split('').map { |digit| digit.to_i }.reduce(:*)
-    puts num
-    count_steps =   count_steps + 1
+    count_steps =  count_steps + 1
   end
   return count_steps
 end

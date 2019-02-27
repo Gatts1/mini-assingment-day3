@@ -2,7 +2,6 @@ def bot_teenager
     puts "Ingrese pregunta?"
     question = gets.chomp
     
-
     if question.include?("!") && question.include?("?")
         puts "Calm down, I know what I'm doing!"
     elsif question.include?("!")
